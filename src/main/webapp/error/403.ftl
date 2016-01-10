@@ -12,9 +12,7 @@
             <div class="wrap">
                 <div class="content">
                     <div class="logo">
-                        <a href="http://b3log.org" target="_blank">
-                            <img border="0" width="153" height="56" alt="B3log" title="B3log" src="${staticServePath}/images/logo.jpg"/>
-                        </a>
+                        <img border="0" width="227" height="50" src="${staticServePath}/images/dudugo.png" />
                     </div>
                     <div class="main">
                         <h2>403 Forbidden!</h2>
@@ -23,9 +21,9 @@
                             <a href="${servePath}">Index</a> |
                             <a href="${loginURL}">Login</a>
                         </div>
-                        <a href="http://b3log.org" target="_blank">
-                            <img border="0" class="icon" alt="B3log" title="B3log" src="${staticServePath}/favicon.png"/>
-                        </a>
+                    <#--                        <a href="http://b3log.org" target="_blank">
+                                                <img border="0" class="icon" alt="B3log" title="B3log" src="${staticServePath}/favicon.png"/>
+                                            </a>-->
                     </div>
                     <span class="clear"></span>
                 </div>
@@ -34,7 +32,7 @@
         <div class="footerWrapper">
             <div class="footer">
                 &copy; ${year}
-                Powered by <a href="http://b3log.org" target="_blank">B3log 开源</a>, ver ${version}
+                Powered by Alfred.Gao
             </div>
         </div>
     </body>

@@ -3,28 +3,25 @@
     <head>
         <meta charset="utf-8"/>
         <title>${forgotLabel} Solo!</title>
-        <meta name="keywords" content="Java 博客,GAE blog,b3log"/>
-        <meta name="description" content="An open source blog based on GAE Java,GAE Java 开源博客"/>
-        <meta name="owner" content="B3log Team"/>
-        <meta name="author" content="B3log Team"/>
-        <meta name="generator" content="Solo"/>
-        <meta name="copyright" content="B3log"/>
-        <meta name="revised" content="B3log, ${year}"/>
-        <meta name="robots" content="noindex, follow"/>
+    <#--<meta name="keywords" content="Java 博客,GAE blog,b3log"/>
+    <meta name="description" content="An open source blog based on GAE Java,GAE Java 开源博客"/>
+    <meta name="owner" content="B3log Team"/>
+    <meta name="author" content="B3log Team"/>
+    <meta name="generator" content="Solo"/>
+    <meta name="copyright" content="B3log"/>
+    <meta name="revised" content="B3log, ${year}"/>
+    <meta name="robots" content="noindex, follow"/>-->
         <meta http-equiv="Window-target" content="_top"/>
         <link type="text/css" rel="stylesheet"
               href="${staticServePath}/css/default-init${miniPostfix}.css?${staticResourceVersion}" charset="utf-8"/>
-        <link rel="icon" type="image/png" href="${staticServePath}/favicon.png"/>
     </head>
     <body>
         <div class="wrapper">
             <div class="wrap">
                 <div class="content">
                     <div class="logo">
-                        <a href="http://b3log.org" target="_blank">
-                            <img border="0" width="153" height="56" alt="B3log" title="B3log"
-                                 src="${staticServePath}/images/logo.jpg"/>
-                        </a>
+                        <img border="0" width="227" height="50" alt="B3log" title="B3log"
+                             src="${staticServePath}/images/dudugo.png" />
                     </div>
                     <div class="main">
                         <h2>
@@ -50,10 +47,6 @@
                             <span id="tip"></span>
                         </div>
                         </#if>
-
-                        <a href="http://b3log.org" target="_blank">
-                            <img border="0" class="icon" alt="B3log" title="B3log" src="${staticServePath}/favicon.png"/>
-                        </a>
                     </div>
                     <span class="clear"></span>
                 </div>
@@ -61,7 +54,7 @@
             <div class="footerWrapper">
                 <div class="footer">
                     &copy; ${year} - <a href="${servePath}">${blogTitle}</a><br/>
-                    Powered by <a href="http://b3log.org" target="_blank">B3log 开源</a> • <a href="http://b3log.org/services/#solo" target="_blank">Solo</a> ${version}
+                    Powered by Alfred.Gao
                 </div>
             </div>
         </div>

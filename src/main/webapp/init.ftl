@@ -3,14 +3,14 @@
     <head>
         <meta charset="utf-8" />
         <title>${welcomeToSoloLabel} Solo!</title>
-        <meta name="keywords" content="GAE 博客,GAE blog,b3log,init" />
-        <meta name="description" content="An open source blog based on GAE Java,GAE Java 开源博客,初始化程序" />
-        <meta name="owner" content="B3log Team" />
-        <meta name="author" content="B3log Team" />
-        <meta name="generator" content="Solo" />
-        <meta name="copyright" content="B3log" />
-        <meta name="revised" content="B3log, ${year}" />
-        <meta name="robots" content="noindex, follow" />
+    <#-- <meta name="keywords" content="GAE 博客,GAE blog,b3log,init" />
+     <meta name="description" content="An open source blog based on GAE Java,GAE Java 开源博客,初始化程序" />
+     <meta name="owner" content="B3log Team" />
+     <meta name="author" content="B3log Team" />
+     <meta name="generator" content="Solo" />
+     <meta name="copyright" content="B3log" />
+     <meta name="revised" content="B3log, ${year}" />
+     <meta name="robots" content="noindex, follow" />-->
         <meta http-equiv="Window-target" content="_top" />
         <link type="text/css" rel="stylesheet" href="${staticServePath}/css/default-init${miniPostfix}.css?${staticResourceVersion}" charset="utf-8" />
         <link rel="icon" type="image/png" href="${staticServePath}/favicon.png" />

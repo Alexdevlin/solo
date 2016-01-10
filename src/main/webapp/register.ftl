@@ -3,13 +3,13 @@
     <head>
         <meta charset="utf-8" />
         <title>${blogTitle}</title>
-        <meta name="keywords" content="Java 博客,blog,b3log,kill IE6" />
-        <meta name="description" content="An open source blog based on GAE Java,GAE Java 开源博客,用户注册" />
-        <meta name="owner" content="B3log Team" />
-        <meta name="author" content="B3log Team" />
-        <meta name="generator" content="Solo" />
-        <meta name="copyright" content="B3log" />
-        <meta name="revised" content="B3log, ${year}" />
+    <#--<meta name="keywords" content="Java 博客,blog,b3log,kill IE6" />
+    <meta name="description" content="An open source blog based on GAE Java,GAE Java 开源博客,用户注册" />
+    <meta name="owner" content="B3log Team" />
+    <meta name="author" content="B3log Team" />
+    <meta name="generator" content="Solo" />
+    <meta name="copyright" content="B3log" />
+    <meta name="revised" content="B3log, ${year}" />-->
         <meta http-equiv="Window-target" content="_top" />
         <link type="text/css" rel="stylesheet" href="${staticServePath}/css/default-init${miniPostfix}.css?${staticResourceVersion}" charset="utf-8" />
         <link rel="icon" type="image/png" href="${staticServePath}/favicon.png" />
@@ -57,7 +57,7 @@
             <div class="footerWrapper">
                 <div class="footer">
                     &copy; ${year} - <a href="${servePath}">${blogTitle}</a><br/>
-                    Powered by <a href="http://b3log.org" target="_blank">B3log 开源</a> • <a href="http://b3log.org/services/#solo" target="_blank">Solo</a> ${version}
+                    Powered by Alfred.Gao
                 </div>
             </div>
         </div>
